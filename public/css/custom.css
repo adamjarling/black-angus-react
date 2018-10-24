@@ -1,0 +1,58 @@
+.show-listing {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  padding: 6rem 0 0;
+}
+
+.font-logo {
+    width: 200px;
+    display: inline-block;
+}
+
+.colorlib-nav-toggle {
+  background: #000;
+  padding: 0 10px 10px 10px;
+}
+
+header .colorlib-navbar-brand .colorlib-logo {
+  background: #000;
+  padding: 5px;
+}
+
+.table-cell-black {
+  background: #000;
+  color: #fff;
+}
+
+.table-cell-black h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.bio-photo {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.bio-photo img {
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .bio-photo {
+    height: auto;
+  }
+  .bio-photo img {
+    position: relative;
+  }
+}
+
+#colorlib-band > .container > .row {
+    padding-bottom: 7rem;
+}
