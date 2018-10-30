@@ -9,13 +9,14 @@ import BandMemberSquare from './BandMemberSquare';
 
 const Band = props => {
     return (
-        <div id="colorlib-work">
+        <div>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
+					<div className="col-md-8 col-md-offset-2 text-center intro-heading animate-box">
 						<h2>The Band</h2>
 					</div>
 				</div>
+				
 				<div className="row">
 					<BandMemberSquare bgImage={imgTaran} position="Vocals" label="Taran as Bon Scott" />
 					<BandMemberSquare bgImage={imgRb} position="Lead Guitar" label="RB Green as Angus Young" />

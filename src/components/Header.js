@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 const Header = props => {
   return (
@@ -7,13 +9,14 @@ const Header = props => {
         <div className="row">
           <div className="col-md-12">
             <div className="colorlib-navbar-brand">
-              <a className="colorlib-logo" href="index.html">
+            
+              <Link className="colorlib-logo" to="/">
                 Black Angus
-              </a>
+              </Link>
             </div>
-            <a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle">
+            <span href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle">
               <i />
-            </a>
+            </span>
           </div>
         </div>
       </div>
@@ -21,4 +24,4 @@ const Header = props => {
   );
 };
 
-export default Header;
+export default withRouter(Header);

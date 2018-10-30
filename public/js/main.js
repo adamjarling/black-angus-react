@@ -36,9 +36,10 @@
 				$('#colorlib-main-nav > .js-colorlib-nav-toggle').removeClass('show');
 			} else {
 				$('body').addClass('menu-show');
-				setTimeout(function(){
-					$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
-				}, 900);
+				// setTimeout(function(){
+				// 	$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
+				// }, 900);
+				$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
 			}
 		})
 	};
