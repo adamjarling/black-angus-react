@@ -4,7 +4,7 @@ const BandMemberSquare = props => {
   return (
     <div className="col-md-6 animate-box text-center">
       <a
-        href="band.html"
+        href="#"
         className="work-img"
         style={{ backgroundImage: `url(${props.bgImage})` }}
       >
@@ -13,9 +13,7 @@ const BandMemberSquare = props => {
           <p className="tag">
             <span>{props.position}</span>
           </p>
-          <h3>
-            {props.label}
-          </h3>
+          <h3>{props.label}</h3>
           <span className="read-more">
             Read more
             <i className="icon-arrow-right3" />

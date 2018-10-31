@@ -5,7 +5,6 @@ import NavContainer from './containers/NavContainer';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomeContainer from './containers/HomeContainer';
-import ShowContainer from './containers/ShowsContainer';
 import BandContainer from './containers/BandContainer';
 
 class App extends Component {
@@ -17,7 +16,6 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={HomeContainer} />
           <Route path="/band" component={BandContainer} />
-          <Route path="/shows" component={ShowContainer} />
           <Route path="/press-kit" component={HomeContainer} />
           <Footer />
         </div>
