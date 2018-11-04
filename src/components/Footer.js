@@ -1,4 +1,5 @@
 import React from 'react';
+import MailChimpSignupForm from './MailChimpSignupForm';
 
 const styles = {
   socialMediaIcon: {
@@ -29,20 +30,7 @@ const Footer = props => {
                 Get the latest updates on Black Angus and rare, vintage AC/DC
                 archives.
               </p>
-              <div className="subscribe text-center">
-                <div className="form-group">
-                  <input
-                    type="text"
-                    className="form-control text-center"
-                    placeholder="Enter Email address"
-                  />
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    className="btn btn-primary btn-custom"
-                  />
-                </div>
-              </div>
+              <MailChimpSignupForm />
             </div>
             <div className="col-md-4 col-pb-sm right-display">
               <h2>Follow Us</h2>
@@ -79,8 +67,8 @@ const Footer = props => {
                   Copyright &copy;
                   <script>document.write(new Date().getFullYear());</script> All
                   rights reserved | This template is made with
-                  <i className="icon-heart2" aria-hidden="true" /> by
-                  <a href="https://colorlib.com" target="_blank">
+                  <i className="icon-heart2" aria-hidden="true" /> by <a href="http://adamarling.com">Adam Arling</a> and  
+                  <a href="https://colorlib.com" target="_blank">&nbsp;
                     Colorlib
                   </a>
                 </span>

@@ -1,15 +1,8 @@
 import React from 'react';
 
-const styles = {
-  vidWrapper: {
-    textAlign: 'center',
-    marginBottom: '8rem'
-  }
-};
-
 const Video = props => {
   return (
-    <div style={styles.vidWrapper}>
+    <div className="video-wrapper">
       <iframe
         title="Black Angus promo video"
         width="768"
