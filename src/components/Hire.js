@@ -11,8 +11,8 @@ const Hire = props => {
               the land?
             </h2>
             <p>
-              <a href="#" className="btn btn-primary btn-lg">
-                Available for Hire!
+              <a href="mailto:info@blackangusrock.com" className="btn btn-primary btn-lg">
+                Contact the Beef
               </a>
             </p>
           </div>
