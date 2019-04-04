@@ -68,7 +68,7 @@ const Footer = props => {
                   <script>document.write(new Date().getFullYear());</script> All
                   rights reserved | This template is made with
                   <i className="icon-heart2" aria-hidden="true" /> by <a href="http://adamarling.com">Adam Arling</a> and  
-                  <a href="https://colorlib.com" target="_blank">&nbsp;
+                  <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">&nbsp;
                     Colorlib
                   </a>
                 </span>
