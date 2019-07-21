@@ -1,15 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import logo from '../images/black-angus-font-logo-white.png';
-
+import React, { useEffect } from "react";
+import PropTypes from "prop-types";
+import logo from "../images/black-angus-font-logo-white.png";
+import { jQueryFlexSlider } from "../services/jquery-to-refactor";
 
 const HeroWithContent = props => {
+  useEffect(() => {
+    console.log("mounted");
+    jQueryFlexSlider();
+
+    return () => console.log("unmounting...");
+  }, []);
+
   return (
     <aside id="colorlib-hero">
       <div className="flexslider">
         <ul className="slides">
           <li style={{ backgroundImage: `url(${props.bgImage})` }}>
-            
             <div className="overlay" />
             <div className="container">
               <div className="row">
@@ -24,7 +30,6 @@ const HeroWithContent = props => {
           </li>
         </ul>
       </div>
-      
     </aside>
   );
 };

@@ -1,31 +1,53 @@
-import React from 'react';
-import { FACEBOOK_URL } from '../services/Constants';
+import React from "react";
+import { FACEBOOK_URL } from "../services/Constants";
 
 const shows = [
   {
-    date: 'Friday, April 5th',
-    venue: 'Live Wire Lounge',
-    venueUrl: 'http://livewireloungechicago.com/',
-    location: 'Chicago, IL',
-    ticketUrl: 'https://www.ticketfly.com/purchase/event/1787836',
+    date: "Thursday, August 8th",
+    venue: "Reggies - Robby Birthday Bash",
+    venueUrl: "https://www.reggieslive.com",
+    location: "Chicago, IL",
+    ticketUrl:
+      "https://www.reggieslive.com/show/black-angus-a-tribute-to-ac-dc/",
     image: null,
-    socialLink: 'https://www.facebook.com/events/814722865572710/'
+    socialLink: ""
   },
   {
-    date: 'Friday, April 26th',
-    venue: 'HVAC Pub',
-    venueUrl: 'https://www.hvacpub.com/',
-    location: 'Chicago, IL',
-    ticketUrl: 'https://www.facebook.com/events/2060105220711141/',
+    date: "Saturday, September 21st",
+    venue: "Brauer house",
+    venueUrl: "https://www.brauerhouse.com/",
+    location: "Lombard, IL",
+    ticketUrl: "https://www.ticketfly.com/purchase/event/1856652",
     image: null,
-    socialLink: 'https://www.facebook.com/events/2060105220711141/'
+    socialLink: ""
+  }
+];
+
+const pastShows = [
+  {
+    date: "Friday, April 26th",
+    venue: "HVAC Pub",
+    venueUrl: "https://www.hvacpub.com/",
+    location: "Chicago, IL",
+    ticketUrl: "https://www.facebook.com/events/2060105220711141/",
+    image: null,
+    socialLink: "https://www.facebook.com/events/2060105220711141/"
+  },
+  {
+    date: "Friday, April 5th",
+    venue: "Live Wire Lounge",
+    venueUrl: "http://livewireloungechicago.com/",
+    location: "Chicago, IL",
+    ticketUrl: "https://www.ticketfly.com/purchase/event/1787836",
+    image: null,
+    socialLink: "https://www.facebook.com/events/814722865572710/"
   }
 ];
 
 const styles = {
   showImage: {
-    marginTop: '2rem',
-    width: '75%'
+    marginTop: "2rem",
+    width: "75%"
   }
 };
 
@@ -36,9 +58,9 @@ const ShowList = props => {
         {shows.map(show => (
           <div className="show-listing" key={show.date}>
             {show.date}
-            <br /> @{' '}
+            <br /> @{" "}
             <a
-              href={show.venueUrl ? show.venueUrl : '#'}
+              href={show.venueUrl ? show.venueUrl : "#"}
               target="_blank"
               rel="noopener noreferrer"
             >

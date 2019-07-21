@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
-import HeroWithContent from '../components/HeroWithContent';
-import bgImage from '../images/acdc-promo-shot2-dark.jpg';
+import React, { Component } from "react";
 
-class ShowsContainer extends Component {
+class BandContainer extends Component {
   render() {
     return (
       <div>
-        <HeroWithContent bgImage={bgImage} h1="The Band" h2="Introducing" />
         <div id="colorlib-band">
-          <div class="container">
-            <div class="row">
-                
+          <div className="container">
+            <div className="row">
+              <h1>The Band ya'll</h1>
             </div>
           </div>
         </div>
@@ -19,4 +16,4 @@ class ShowsContainer extends Component {
   }
 }
 
-export default ShowsContainer;
+export default BandContainer;

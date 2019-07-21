@@ -7,6 +7,8 @@ import hvac from '../images/posters/2019-hvac-3-bands.jpg';
 import hvacPrint from '../images/posters/2019-hvac-3-bands-print.jpg';
 import reggies10 from '../images/posters/reggies-10th-anniversary.jpg';
 import hvacPoster from '../images/posters/2019-04-26-hvac.jpg';
+import reggiesRobbyBDay from '../images/posters/2019-08-08-reggies.jpg';
+import ghettoKarts2019 from '../images/posters/facebook-event-2019-07-04.png';
 import ShowList from './ShowList';
 
 const styles = {
@@ -16,6 +18,18 @@ const styles = {
 };
 
 const photos = [
+  {
+    src: ghettoKarts2019,
+    width: 8,
+    height: 5,
+    fbeventurl: 'https://www.facebook.com/events/2366748116872436/'
+  },
+  {
+    src: reggiesRobbyBDay,
+    width: 5,
+    height: 8,
+    fbeventurl: ''
+  },
   {
     src: hvacPoster,
     width: 8,

@@ -1,5 +1,5 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
+import React from "react";
+import { withRouter } from "react-router-dom";
 
 const Header = props => {
   return (
@@ -7,11 +7,12 @@ const Header = props => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            {/*
-            <span href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle">
+            <span
+              href="#"
+              className="js-colorlib-nav-toggle colorlib-nav-toggle"
+            >
               <i />
             </span>
-            */}
           </div>
         </div>
       </div>

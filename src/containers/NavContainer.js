@@ -1,11 +1,22 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import {
+  jQueryFullHeight,
+  jQueryBurgerMenu,
+  jQueryShowHideNavMenu
+} from "../services/jquery-to-refactor";
 
 class NavContainer extends Component {
+  componentDidMount() {
+    jQueryFullHeight();
+    jQueryBurgerMenu();
+  }
+
   handleClick = e => {
-    console.log('click');
-    window.location.reload();
+    console.log("click");
+    jQueryShowHideNavMenu();
   };
+
   render() {
     return (
       <nav id="colorlib-main-nav" role="navigation">
@@ -18,16 +29,6 @@ class NavContainer extends Component {
               <li>
                 <Link to="/" onClick={this.handleClick}>
                   Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/band" onClick={this.handleClick}>
-                  Band
-                </Link>
-              </li>
-              <li>
-                <Link to="/shows" onClick={this.handleClick}>
-                  Shows
                 </Link>
               </li>
               <li>

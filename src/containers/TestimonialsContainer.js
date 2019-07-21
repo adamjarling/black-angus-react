@@ -1,10 +1,15 @@
-import React from 'react';
-import Testimonial from '../components/Testimonial';
-import bonPhoto from '../images/bon-scott-acdc-04.jpg';
-import mulletPhoto from '../images/mullett2.jpg';
-import angusPhoto from '../images/angus.jpg';
+import React, { useEffect } from "react";
+import Testimonial from "../components/Testimonial";
+import bonPhoto from "../images/bon-scott-acdc-04.jpg";
+import mulletPhoto from "../images/mullett2.jpg";
+import angusPhoto from "../images/angus.jpg";
+import { jQueryOwlCarousel } from "../services/jquery-to-refactor";
 
 const TestimonialsContainer = props => {
+  useEffect(() => {
+    jQueryOwlCarousel();
+  }, []);
+
   return (
     <div id="colorlib-testimony" className="colorlib-light-grey">
       <div className="container">
