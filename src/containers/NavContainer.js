@@ -5,6 +5,8 @@ import {
   jQueryBurgerMenu,
   jQueryShowHideNavMenu
 } from "../services/jquery-to-refactor";
+import { withRouter } from "react-router-dom";
+import SocialMedia from "../components/SocialMedia";
 
 class NavContainer extends Component {
   componentDidMount() {
@@ -13,7 +15,18 @@ class NavContainer extends Component {
   }
 
   handleClick = e => {
-    console.log("click");
+    e.preventDefault();
+
+    const { pathname } = this.props.location;
+
+    if (e.target.innerHTML === "Home" && pathname !== "/") {
+      this.props.history.push("/");
+    } else if (
+      e.target.innerHTML === "Press Kit" &&
+      pathname !== "/press-kit"
+    ) {
+      this.props.history.push("/press-kit");
+    }
     jQueryShowHideNavMenu();
   };
 
@@ -44,4 +57,4 @@ class NavContainer extends Component {
   }
 }
 
-export default NavContainer;
+export default withRouter(NavContainer);

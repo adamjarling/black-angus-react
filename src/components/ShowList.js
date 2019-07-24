@@ -10,14 +10,24 @@ const shows = [
     ticketUrl:
       "https://www.reggieslive.com/show/black-angus-a-tribute-to-ac-dc/",
     image: null,
-    socialLink: ""
+    socialLink: "https://www.facebook.com/events/312829506288575/"
   },
   {
     date: "Saturday, September 21st",
-    venue: "Brauer house",
+    venue: "Brauer house w/ Phat Kiss and Too Bad",
     venueUrl: "https://www.brauerhouse.com/",
     location: "Lombard, IL",
-    ticketUrl: "https://www.ticketfly.com/purchase/event/1856652",
+    ticketUrl:
+      "https://www.eventbrite.com/e/black-angus-phat-kiss-too-bad-company-tickets-65936751599",
+    image: null,
+    socialLink: "https://www.facebook.com/events/340843310125045/"
+  },
+  {
+    date: "Saturday, December 21st",
+    venue: "Public House",
+    venueUrl: "https://www.publichouseoncicero.com/",
+    location: "Crestwood, IL",
+    ticketUrl: "",
     image: null,
     socialLink: ""
   }

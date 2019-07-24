@@ -8,11 +8,12 @@ import Video from "../components/Video";
 import ShowListPosters from "../components/ShowListPosters";
 import FollowUs from "../components/homepage/FollowUs";
 import { jQueryWaypoint } from "../services/jquery-to-refactor";
+import IntroHeading from "../components/IntroHeading";
 
 const HomeContainer = () => {
   const styles = {
     introParagraph: {
-      marginTop: "5rem"
+      paddingTop: "5rem"
     },
     socialMediaIcon: {
       marginRight: "10px"
@@ -26,13 +27,13 @@ const HomeContainer = () => {
   return (
     <div>
       <HeroWithContent bgImage={bgImage} h1="The Band" h2="Introducing" />
-      <div className="col-md-8 col-md-offset-2 text-center animate-box intro-heading fadeInUp animated">
+      <IntroHeading>
         <p style={styles.introParagraph}>
           Black Angus is an AC/DC tribute band hailing from Chicago, USA.{" "}
           <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
         </p>
         <FollowUs />
-      </div>
+      </IntroHeading>
 
       <div className="container">
         <Video embedUrl="https://www.youtube.com/embed/WYGFRIrze4c" />

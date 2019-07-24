@@ -50,11 +50,16 @@ header .colorlib-navbar-brand .colorlib-logo {
   .bio-photo {
     height: auto;
   }
+
   .bio-photo img {
     position: relative;
   }
+
+  .show-listing {
+    font-size: 3rem;
+  }
 }
 
-#colorlib-band > .container > .row {
+#colorlib-band>.container>.row {
   padding-bottom: 7rem;
 }

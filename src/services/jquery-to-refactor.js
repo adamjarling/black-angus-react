@@ -6,9 +6,6 @@ export const jQueryShowHideNavMenu = () => {
     jQuery("#colorlib-main-nav > .js-colorlib-nav-toggle").removeClass("show");
   } else {
     jQuery("body").addClass("menu-show");
-    // setTimeout(function() {
-    //   jQuery("#colorlib-main-nav > .js-colorlib-nav-toggle").addClass("show");
-    // }, 900);
     jQuery("#colorlib-main-nav > .js-colorlib-nav-toggle").addClass("show");
   }
 };
