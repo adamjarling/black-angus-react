@@ -13,6 +13,16 @@ const shows = [
     socialLink: "https://www.facebook.com/events/312829506288575/"
   },
   {
+    date: "Saturday, August 31st",
+    venue: "HVAC Pub - Cubs Post Game - 4pm",
+    venueUrl: "https://www.hvacpub.com/",
+    location: "Chicago, IL",
+    ticketUrl:
+      "",
+    image: null,
+    socialLink: ""
+  },
+  {
     date: "Saturday, September 21st",
     venue: "Brauer house w/ Phat Kiss and Too Bad",
     venueUrl: "https://www.brauerhouse.com/",
@@ -23,13 +33,23 @@ const shows = [
     socialLink: "https://www.facebook.com/events/340843310125045/"
   },
   {
+    date: "Friday, October 4th",
+    venue: "Live Wire Lounge - Little John's Birthday Bash",
+    venueUrl: "http://livewireloungechicago.com/",
+    location: "Chicago, IL",
+    ticketUrl:
+      "",
+    image: null,
+    socialLink: "https://www.facebook.com/events/2422439924706152/"
+  },
+  {
     date: "Saturday, December 21st",
-    venue: "Public House",
+    venue: "Public House on Cicero",
     venueUrl: "https://www.publichouseoncicero.com/",
     location: "Crestwood, IL",
     ticketUrl: "",
     image: null,
-    socialLink: ""
+    socialLink: "https://www.facebook.com/events/2202566386717178/"
   }
 ];
 

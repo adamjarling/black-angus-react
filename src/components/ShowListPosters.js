@@ -10,6 +10,7 @@ import hvacPoster from "../images/posters/2019-04-26-hvac.jpg";
 import reggiesRobbyBDay from "../images/posters/2019-08-08-reggies.jpg";
 import ghettoKarts2019 from "../images/posters/facebook-event-2019-07-04.png";
 import brauerhouse from "../images/posters/2019-09-21-brauerhouse.jpg";
+import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
 import ShowList from "./ShowList";
 
 const styles = {
@@ -23,6 +24,12 @@ const photos = [
     src: reggiesRobbyBDay,
     width: 5,
     height: 8,
+    fbeventurl: ""
+  },
+  {
+    src: hvacCubs,
+    width: 8,
+    height: 4,
     fbeventurl: ""
   },
   {
@@ -96,6 +103,7 @@ const ShowListPosters = props => {
           </div>
         </div>
         <ShowList />
+        {/* <ShowTable /> */}
         <div className="row">
           <Gallery
             photos={photos}

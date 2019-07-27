@@ -2,12 +2,6 @@ import React from "react";
 import MailChimpSignupForm from "./MailChimpSignupForm";
 import SocialMedia from "./SocialMedia";
 
-const styles = {
-  socialMediaIcon: {
-    marginRight: "10px"
-  }
-};
-
 const Footer = props => {
   return (
     <footer>
@@ -19,7 +13,7 @@ const Footer = props => {
                 <div className="col-md-10">
                   <h2>Black Angus</h2>
                   <p>
-                    Chicago musicians delivering the Bon Scott era AC/DC you
+                    Chicago musicians delivering the AC/DC you
                     love, and deserve.
                   </p>
                 </div>

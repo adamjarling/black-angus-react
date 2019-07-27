@@ -6,7 +6,6 @@ import {
   jQueryShowHideNavMenu
 } from "../services/jquery-to-refactor";
 import { withRouter } from "react-router-dom";
-import SocialMedia from "../components/SocialMedia";
 
 class NavContainer extends Component {
   componentDidMount() {
