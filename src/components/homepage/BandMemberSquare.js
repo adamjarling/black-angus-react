@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const BandMemberSquare = props => {
   return (
     <div className="col-md-6 animate-box text-center">
-      <a
-        href="#"
+      <div
         className="work-img"
         style={{ backgroundImage: `url(${props.bgImage})` }}
       >
@@ -19,7 +18,7 @@ const BandMemberSquare = props => {
             <i className="icon-arrow-right3" />
           </span>
         </div>
-      </a>
+      </div>
     </div>
   );
 };

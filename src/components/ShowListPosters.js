@@ -11,7 +11,9 @@ import reggiesRobbyBDay from "../images/posters/2019-08-08-reggies.jpg";
 import ghettoKarts2019 from "../images/posters/facebook-event-2019-07-04.png";
 import brauerhouse from "../images/posters/2019-09-21-brauerhouse.jpg";
 import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
+import publicHouse from "../images/posters/2019-12-21-public-house.jpg";
 import ShowList from "./ShowList";
+import { shows } from "../services/shows";
 
 const styles = {
   sectionStyles: {
@@ -20,6 +22,12 @@ const styles = {
 };
 
 const photos = [
+  {
+    src: publicHouse,
+    width: 8,
+    height: 5,
+    fbeventurl: "https://www.facebook.com/events/2202566386717178/"
+  },
   {
     src: reggiesRobbyBDay,
     width: 5,
@@ -102,8 +110,8 @@ const ShowListPosters = props => {
             <h2>Shows</h2>
           </div>
         </div>
-        <ShowList />
-        {/* <ShowTable /> */}
+        <ShowList shows={shows} />
+
         <div className="row">
           <Gallery
             photos={photos}

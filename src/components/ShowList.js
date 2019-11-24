@@ -1,78 +1,6 @@
 import React from "react";
 import { FACEBOOK_URL } from "../services/Constants";
-
-const shows = [
-  {
-    date: "Thursday, August 8th",
-    venue: "Reggies - Robby Birthday Bash",
-    venueUrl: "https://www.reggieslive.com",
-    location: "Chicago, IL",
-    ticketUrl:
-      "https://www.reggieslive.com/show/black-angus-a-tribute-to-ac-dc/",
-    image: null,
-    socialLink: "https://www.facebook.com/events/312829506288575/"
-  },
-  {
-    date: "Saturday, August 31st",
-    venue: "HVAC Pub - Cubs Post Game - 4pm",
-    venueUrl: "https://www.hvacpub.com/",
-    location: "Chicago, IL",
-    ticketUrl:
-      "",
-    image: null,
-    socialLink: ""
-  },
-  {
-    date: "Saturday, September 21st",
-    venue: "Brauer house w/ Phat Kiss and Too Bad",
-    venueUrl: "https://www.brauerhouse.com/",
-    location: "Lombard, IL",
-    ticketUrl:
-      "https://www.eventbrite.com/e/black-angus-phat-kiss-too-bad-company-tickets-65936751599",
-    image: null,
-    socialLink: "https://www.facebook.com/events/340843310125045/"
-  },
-  {
-    date: "Friday, October 4th",
-    venue: "Live Wire Lounge - Little John's Birthday Bash",
-    venueUrl: "http://livewireloungechicago.com/",
-    location: "Chicago, IL",
-    ticketUrl:
-      "",
-    image: null,
-    socialLink: "https://www.facebook.com/events/2422439924706152/"
-  },
-  {
-    date: "Saturday, December 21st",
-    venue: "Public House on Cicero",
-    venueUrl: "https://www.publichouseoncicero.com/",
-    location: "Crestwood, IL",
-    ticketUrl: "",
-    image: null,
-    socialLink: "https://www.facebook.com/events/2202566386717178/"
-  }
-];
-
-const pastShows = [
-  {
-    date: "Friday, April 26th",
-    venue: "HVAC Pub",
-    venueUrl: "https://www.hvacpub.com/",
-    location: "Chicago, IL",
-    ticketUrl: "https://www.facebook.com/events/2060105220711141/",
-    image: null,
-    socialLink: "https://www.facebook.com/events/2060105220711141/"
-  },
-  {
-    date: "Friday, April 5th",
-    venue: "Live Wire Lounge",
-    venueUrl: "http://livewireloungechicago.com/",
-    location: "Chicago, IL",
-    ticketUrl: "https://www.ticketfly.com/purchase/event/1787836",
-    image: null,
-    socialLink: "https://www.facebook.com/events/814722865572710/"
-  }
-];
+import PropTypes from "prop-types";
 
 const styles = {
   showImage: {
@@ -81,7 +9,7 @@ const styles = {
   }
 };
 
-const ShowList = props => {
+const ShowList = ({ shows }) => {
   return (
     <div className="row">
       <div className="col-md-12 animate-box">
@@ -129,6 +57,10 @@ const ShowList = props => {
       </div>
     </div>
   );
+};
+
+ShowList.propTypes = {
+  shows: PropTypes.array
 };
 
 export default ShowList;

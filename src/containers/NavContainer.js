@@ -13,6 +13,12 @@ class NavContainer extends Component {
     jQueryBurgerMenu();
   }
 
+  styles = {
+    navButton: {
+      border: "0"
+    }
+  };
+
   handleClick = e => {
     e.preventDefault();
 
@@ -25,6 +31,8 @@ class NavContainer extends Component {
       pathname !== "/press-kit"
     ) {
       this.props.history.push("/press-kit");
+    } else if (e.target.innerHTML === "Shows" && pathname !== "/shows") {
+      this.props.history.push("/shows");
     }
     jQueryShowHideNavMenu();
   };
@@ -32,9 +40,12 @@ class NavContainer extends Component {
   render() {
     return (
       <nav id="colorlib-main-nav" role="navigation">
-        <a className="js-colorlib-nav-toggle colorlib-nav-toggle active">
+        <button
+          className="js-colorlib-nav-toggle colorlib-nav-toggle active"
+          style={this.styles.navButton}
+        >
           <i />
-        </a>
+        </button>
         <div className="js-fullheight colorlib-table">
           <div className="colorlib-table-cell js-fullheight">
             <ul>
@@ -46,6 +57,11 @@ class NavContainer extends Component {
               <li>
                 <Link to="/press-kit" onClick={this.handleClick}>
                   Press Kit
+                </Link>
+              </li>
+              <li>
+                <Link to="/shows" onClick={this.handleClick}>
+                  Shows
                 </Link>
               </li>
             </ul>
