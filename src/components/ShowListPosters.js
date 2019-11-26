@@ -12,6 +12,7 @@ import ghettoKarts2019 from "../images/posters/facebook-event-2019-07-04.png";
 import brauerhouse from "../images/posters/2019-09-21-brauerhouse.jpg";
 import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
 import publicHouse from "../images/posters/2019-12-21-public-house.jpg";
+import hob from "../images/posters/2019-house-of-blues.jpg";
 import ShowList from "./ShowList";
 import { shows } from "../services/shows";
 
@@ -22,6 +23,12 @@ const styles = {
 };
 
 const photos = [
+  {
+    src: hob,
+    width: 8,
+    height: 5,
+    fbeventurl: "https://www.facebook.com/events/2464016177173365/"
+  },
   {
     src: publicHouse,
     width: 8,

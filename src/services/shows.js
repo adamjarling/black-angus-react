@@ -7,6 +7,16 @@ export const shows = [
     ticketUrl: "",
     image: null,
     socialLink: "https://www.facebook.com/events/2202566386717178/"
+  },
+  {
+    date: "Friday, December 27th",
+    venue: "House of Blues Chicago",
+    venueUrl: "https://www.houseofblues.com/chicago",
+    location: "Chicago, IL",
+    ticketUrl:
+      "https://www.houseofblues.com/chicago/EventDetail?tmeventid=04005777252F07BC&offerid=115979",
+    image: null,
+    socialLink: "https://www.facebook.com/events/2464016177173365/"
   }
 ];
 
