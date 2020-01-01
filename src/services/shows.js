@@ -17,6 +17,24 @@ export const shows = [
       "https://www.houseofblues.com/chicago/EventDetail?tmeventid=04005777252F07BC&offerid=115979",
     image: null,
     socialLink: "https://www.facebook.com/events/2464016177173365/"
+  },
+  {
+    date: "Monday, January 6th",
+    venue: "Private Party",
+    venueUrl: "",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: ""
+  },
+  {
+    date: "May 16th, 2020",
+    venue: "Public House on Cicero",
+    venueUrl: "https://www.publichouseoncicero.com/",
+    location: "Crestwood, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: ""
   }
 ];
 
