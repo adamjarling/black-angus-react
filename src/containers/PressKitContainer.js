@@ -2,7 +2,7 @@ import React from "react";
 import promoPic1 from "../images/DSC03584.JPG";
 import hvac1 from "../images/hvac1.jpg";
 import HeroWithContent from "../components/HeroWithContent";
-import bgImage from "../images/DSC03193-ANIMATION.gif";
+import bgImage from "../images/hob-2019-ANIMATION.gif";
 import IntroHeading from "../components/IntroHeading";
 import Video from "../components/Video";
 import girls from "../assets/Girls got Rhythm.ref1.mp3";
@@ -27,17 +27,9 @@ const PressKitContainer = () => {
   return (
     <div>
       <div>
-        <HeroWithContent bgImage={bgImage} />
+        <HeroWithContent bgImage={bgImage} h2="Black Angus" h1="Press Kit" />
 
         <div id="colorlib-presskit" className="container">
-          <IntroHeading>
-            <h2>Press Kit</h2>
-            {/* <p>
-              “BLACK ANGUS is closest thing you'll get to experiencing the
-              feeling of live AC/DC. The band kicks ass.”
-            </p>{" "}
-            <p>— Kory Clarke</p> */}
-          </IntroHeading>
           <BioText>
             <p>
               BLACK ANGUS is the premier North American AC/DC tribute band
@@ -54,17 +46,17 @@ const PressKitContainer = () => {
             <p>
               "Our current line-up are just great players" says Taran De Pablos,
               singer of BLACK ANGUS. "Our guys have toured the world, released
-              hit albums, done multiple stadium tours, you name it we've done
-              it. When performing with Black Angus, it's a bunch of dudes having
-              fun, breathing fresh life into some of the best rock songs of all
-              time. People love it."
+              hit albums, done stadium tours, you name it we've done it. When
+              performing with Black Angus, it's a band having fun, breathing
+              some life into some of the best rock songs of all time. The bull
+              has found the unmistakable, AC/DC boogie. People love it."
             </p>
             <p>
-              Throughout 2018 and 2019 BLACK ANGUS has been playing the club and
-              festival circuit, building out a Grade A set list. They've
-              released 2 promo videos, and recently recorded studio versions of
-              three classic AC/DC jams; "Girls Got Rhythm", "Shot Down in
-              Flames", and "Walk All Over You".
+              Since 2018 BLACK ANGUS has been touring the club and festival
+              circuit, building out a Grade A set list. They've released 2 promo
+              videos, and recently recorded studio versions of three classic
+              AC/DC jams; "Girls Got Rhythm", "Shot Down in Flames", and "Walk
+              All Over You".
             </p>
             <p>AC/DC rules. BLACK ANGUS aims to rule, almost as much. </p>
             <p>Book the best AC/DC tribute act of the pack today.</p>

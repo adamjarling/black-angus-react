@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import HeroWithContent from "../components/HeroWithContent";
 import bgImage from "../images/web-banner-cutup.jpg";
+import bgImage2 from "../images/DSC03193-ANIMATION.gif";
 import Band from "../components/homepage/Band";
 import TestimonialContainer from "./TestimonialsContainer";
 import Hire from "../components/Hire";
@@ -9,15 +10,25 @@ import ShowListPosters from "../components/ShowListPosters";
 import FollowUs from "../components/homepage/FollowUs";
 import { jQueryWaypoint } from "../services/jquery-to-refactor";
 import IntroHeading from "../components/IntroHeading";
+import { useHistory } from "react-router-dom";
+import SocialMedia from "../components/SocialMedia";
 
 const HomeContainer = () => {
+  const history = useHistory();
   const styles = {
-    introParagraph: {
-      paddingTop: "5rem"
+    followBottom: {
+      display: "flex",
+      justifyContent: "space-evenly",
+      paddingTop: "2rem"
     },
+
     socialMediaIcon: {
       marginRight: "10px"
     }
+  };
+
+  const handlePressClick = () => {
+    history.push("/press-kit");
   };
 
   useEffect(() => {
@@ -26,13 +37,18 @@ const HomeContainer = () => {
 
   return (
     <div>
-      <HeroWithContent bgImage={bgImage} h1="The Band" h2="Introducing" />
+      <HeroWithContent bgImage={bgImage2} h1="The Band" h2="Introducing" />
       <IntroHeading>
-        <p style={styles.introParagraph}>
+        <p className="home-intro-p">
           Black Angus is an AC/DC tribute band hailing from Chicago, USA.{" "}
-          <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
         </p>
-        <FollowUs />
+        <div className="home-hi-contacts">
+          <SocialMedia />
+          <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
+          <button className="button btn btn-primary" onClick={handlePressClick}>
+            View the Press Kit
+          </button>
+        </div>
       </IntroHeading>
 
       <div className="container">

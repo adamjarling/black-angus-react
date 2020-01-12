@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   socialMediaIcon: {
-    marginRight: "10px"
+    marginRight: "20px"
   }
 };
 

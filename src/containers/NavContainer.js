@@ -33,6 +33,10 @@ class NavContainer extends Component {
       this.props.history.push("/press-kit");
     } else if (e.target.innerHTML === "Shows" && pathname !== "/shows") {
       this.props.history.push("/shows");
+    } else if (e.target.innerHTML === "Photos" && pathname !== "/photos") {
+      this.props.history.push("/photos");
+    } else if (e.target.innerHTML === "Booking" && pathname !== "/booking") {
+      this.props.history.push("/booking");
     }
     jQueryShowHideNavMenu();
   };
@@ -62,6 +66,16 @@ class NavContainer extends Component {
               <li>
                 <Link to="/shows" onClick={this.handleClick}>
                   Shows
+                </Link>
+              </li>
+              <li>
+                <Link to="/photos" onClick={this.handleClick}>
+                  Photos
+                </Link>
+              </li>
+              <li>
+                <Link to="/booking" onClick={this.handleClick}>
+                  Booking
                 </Link>
               </li>
             </ul>

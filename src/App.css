@@ -17,16 +17,40 @@ h3.fancy {
 
 h3.fancy:after {
   position: absolute;
-  bottom: -.5em;
+  bottom: -0.5em;
   left: 0;
   right: 0;
   width: 80px;
   height: 2px;
-  content: '';
+  content: "";
   background: #c50202;
   margin: 0 auto;
 }
 
 .text-sm {
   font-size: 14px;
+}
+
+header {
+  padding: 0;
+  top: 40px;
+}
+
+.home-hi-contacts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .home-intro-p {
+    padding: 2rem;
+  }
+  .home-hi-contacts {
+    flex-direction: column;
+  }
+}
+
+#colorlib-hero {
+  margin-bottom: 3rem;
 }

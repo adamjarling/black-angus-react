@@ -3,13 +3,15 @@ import PropTypes from "prop-types";
 import logo from "../images/black-angus-font-logo-white.png";
 import { jQueryFlexSlider } from "../services/jquery-to-refactor";
 import styled from "styled-components";
-import { withRouter } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const HeroWithContent = props => {
+  const location = useLocation();
+
   useEffect(() => {
     jQueryFlexSlider();
 
-    return () => console.log("unmounting...");
+    //return () => console.log("unmounting...");
   }, []);
 
   const LI = styled.li`
@@ -23,16 +25,18 @@ const HeroWithContent = props => {
           <LI>
             <div className="overlay" />
             <div className="container">
-              {props.location.pathname === "/" && (
-                <div className="row">
-                  <div className="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
-                    <div className="slider-text-inner">
-                      <h2>{props.h2}</h2>
+              <div className="row">
+                <div className="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
+                  <div className="slider-text-inner">
+                    <h2>{props.h2}</h2>
+                    {location.pathname === "/" ? (
                       <img src={logo} alt="Logo" />
-                    </div>
+                    ) : (
+                      <h1>{props.h1}</h1>
+                    )}
                   </div>
                 </div>
-              )}
+              </div>
             </div>
           </LI>
         </ul>
@@ -47,4 +51,4 @@ HeroWithContent.propTypes = {
   h2: PropTypes.string
 };
 
-export default withRouter(HeroWithContent);
+export default HeroWithContent;

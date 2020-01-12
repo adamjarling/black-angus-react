@@ -20,17 +20,20 @@ const ShowsContainer = () => {
 
   return (
     <div>
-      <HeroWithContent bgImage={bgImage} />
+      <HeroWithContent
+        bgImage={bgImage}
+        h2="Clubs, festivals, backyard bbqs"
+        h1="Live shows"
+      />
 
-      <div id="colorlib-shows" className="container">
-        <IntroHeading>
-          <h2>Shows</h2>
+      <div className="container">
+        {/* <IntroHeading>
           <p>
             “BLACK ANGUS is closest thing you'll get to experiencing the feeling
             of live AC/DC. The band kicks ass.”
           </p>{" "}
-          <p>— Pretty much everyone</p>
-        </IntroHeading>
+          <p>— Black Angus's manager</p>
+        </IntroHeading> */}
         <ShowList shows={shows} />
         <IntroHeading>
           <PastShowsHeadline>Past Shows</PastShowsHeadline>

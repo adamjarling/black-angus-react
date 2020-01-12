@@ -22,7 +22,7 @@ const styles = {
   }
 };
 
-const photos = [
+export const photos = [
   {
     src: hob,
     width: 8,
