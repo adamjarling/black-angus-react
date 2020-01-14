@@ -15,17 +15,6 @@ import SocialMedia from "../components/SocialMedia";
 
 const HomeContainer = () => {
   const history = useHistory();
-  const styles = {
-    followBottom: {
-      display: "flex",
-      justifyContent: "space-evenly",
-      paddingTop: "2rem"
-    },
-
-    socialMediaIcon: {
-      marginRight: "10px"
-    }
-  };
 
   const handlePressClick = () => {
     history.push("/press-kit");

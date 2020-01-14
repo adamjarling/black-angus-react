@@ -10,6 +10,8 @@ import walkMp3 from "../assets/Walk all over You.mstrref1.mp3";
 import styled from "styled-components";
 import fontLogo from "../images/black-angus-font-logo.png";
 import biggerLogo from "../images/black-angus-logo2.png";
+import rb from "../images/hob/rb-hob2.JPG";
+import stageHob from "../images/gallery/stage-hob.JPG";
 
 const PressKitContainer = () => {
   const Audio = styled.audio`
@@ -67,6 +69,13 @@ const PressKitContainer = () => {
           <div className="row">
             <div className="col-md-6">
               <img
+                src={rb}
+                alt="Black Angus Promo Pic 3"
+                className="img-responsive"
+              />
+            </div>
+            <div className="col-md-6">
+              <img
                 src={promoPic1}
                 alt="Black Angus Promo Pic 1"
                 className="img-responsive"
@@ -76,6 +85,13 @@ const PressKitContainer = () => {
               <img
                 src={hvac1}
                 alt="Black Angus Promo Pic 2"
+                className="img-responsive"
+              />
+            </div>
+            <div className="col-md-6">
+              <img
+                src={stageHob}
+                alt="Black Angus Promo Pic 4"
                 className="img-responsive"
               />
             </div>

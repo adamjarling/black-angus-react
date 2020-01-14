@@ -75,7 +75,6 @@ export const jQueryWaypoint = () => {
     function(direction) {
       if (direction === "down" && !jQuery(this.element).hasClass("animated")) {
         i++;
-
         jQuery(this.element).addClass("item-animate");
         setTimeout(function() {
           jQuery("body .animate-box.item-animate").each(function(k) {
@@ -88,7 +87,6 @@ export const jQueryWaypoint = () => {
                 } else {
                   el.addClass("fadeInUp animated");
                 }
-
                 el.removeClass("item-animate");
               },
               k * 200,
