@@ -10,12 +10,6 @@ const BookingContainer = () => {
     jQueryWaypoint();
   }, []);
 
-  const PastShowsHeadline = styled.h2`
-    margin-top: 4rem;
-    padding-top: 4rem;
-    border-top: 1px solid #ccc;
-  `;
-
   const BookingHeadline = styled.h2`
     margin: 4rem 0 8rem;
     text-align: center;

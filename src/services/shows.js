@@ -1,15 +1,67 @@
 export const shows = [
   {
-    date: "Saturday, December 21st",
+    date: "March 14th, 2020",
+    venue: "Live Wire Lounge",
+    venueUrl: "http://livewireloungechicago.com/",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: ""
+  },
+  {
+    date: "April 10th, 2020",
+    venue: "HVAC Pub",
+    venueUrl: "https://www.hvacpubwrigley.com/",
+    location: "Chicago, IL - Wrigleyville",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "Post Cubs Cardinals game.  Black Angus starts in the 10th inning."
+  },
+  {
+    date: "April 17th, 2020",
+    venue: "Tailgaters",
+    venueUrl: "https://www.tailgatersgrill.com/",
+    location: "Bolingbrook, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: ""
+  },
+
+  {
+    date: "May 16th, 2020",
     venue: "Public House on Cicero",
     venueUrl: "https://www.publichouseoncicero.com/",
     location: "Crestwood, IL",
     ticketUrl: "",
     image: null,
-    socialLink: "https://www.facebook.com/events/2202566386717178/"
+    socialLink: ""
   },
   {
-    date: "Friday, December 27th",
+    date: "June 10th, 2020",
+    venue: "HVAC Pub",
+    venueUrl: "https://www.hvacpubwrigley.com/",
+    location: "Chicago, IL - Wrigleyville",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details:
+      "Post Cubs Red Sox game.  Black Angus starts promptly after the Cubs whoop the Sox's ass"
+  }
+];
+
+export const pastShows = [
+  {
+    date: "Monday, January 6th, 2020",
+    venue: "Private Party",
+    venueUrl: "",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: ""
+  },
+  {
+    date: "Friday, December 27th, 2019",
     venue: "House of Blues Chicago",
     venueUrl: "https://www.houseofblues.com/chicago",
     location: "Chicago, IL",
@@ -19,28 +71,16 @@ export const shows = [
     socialLink: "https://www.facebook.com/events/2464016177173365/"
   },
   {
-    date: "Monday, January 6th",
-    venue: "Private Party",
-    venueUrl: "",
-    location: "Chicago, IL",
-    ticketUrl: "",
-    image: null,
-    socialLink: ""
-  },
-  {
-    date: "May 16th, 2020",
+    date: "Saturday, December 21st, 2019",
     venue: "Public House on Cicero",
     venueUrl: "https://www.publichouseoncicero.com/",
     location: "Crestwood, IL",
     ticketUrl: "",
     image: null,
-    socialLink: ""
-  }
-];
-
-export const pastShows = [
+    socialLink: "https://www.facebook.com/events/2202566386717178/"
+  },
   {
-    date: "Friday, October 4th",
+    date: "Friday, October 4th, 2019",
     venue: "Live Wire Lounge - Little John's Birthday Bash",
     venueUrl: "http://livewireloungechicago.com/",
     location: "Chicago, IL",
@@ -49,7 +89,7 @@ export const pastShows = [
     socialLink: "https://www.facebook.com/events/2422439924706152/"
   },
   {
-    date: "Saturday, September 21st",
+    date: "Saturday, September 21st, 2019",
     venue: "Brauer house w/ Phat Kiss and Too Bad",
     venueUrl: "https://www.brauerhouse.com/",
     location: "Lombard, IL",
@@ -59,7 +99,7 @@ export const pastShows = [
     socialLink: "https://www.facebook.com/events/340843310125045/"
   },
   {
-    date: "Saturday, August 31st",
+    date: "Saturday, August 31st, 2019",
     venue: "HVAC Pub - Cubs Post Game - 4pm",
     venueUrl: "https://www.hvacpub.com/",
     location: "Chicago, IL",
@@ -68,7 +108,7 @@ export const pastShows = [
     socialLink: ""
   },
   {
-    date: "Thursday, August 8th",
+    date: "Thursday, August 8th, 2019",
     venue: "Reggies - Robby Birthday Bash",
     venueUrl: "https://www.reggieslive.com",
     location: "Chicago, IL",
@@ -78,7 +118,7 @@ export const pastShows = [
     socialLink: "https://www.facebook.com/events/312829506288575/"
   },
   {
-    date: "Friday, April 26th",
+    date: "Friday, April 26th, 2019",
     venue: "HVAC Pub",
     venueUrl: "https://www.hvacpub.com/",
     location: "Chicago, IL",
@@ -87,7 +127,7 @@ export const pastShows = [
     socialLink: "https://www.facebook.com/events/2060105220711141/"
   },
   {
-    date: "Friday, April 5th",
+    date: "Friday, April 5th, 2019",
     venue: "Live Wire Lounge",
     venueUrl: "http://livewireloungechicago.com/",
     location: "Chicago, IL",

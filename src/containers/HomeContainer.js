@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import HeroWithContent from "../components/HeroWithContent";
-import bgImage from "../images/web-banner-cutup.jpg";
 import bgImage2 from "../images/DSC03193-ANIMATION.gif";
 import Band from "../components/homepage/Band";
 import TestimonialContainer from "./TestimonialsContainer";
 import Hire from "../components/Hire";
 import Video from "../components/Video";
 import ShowListPosters from "../components/ShowListPosters";
-import FollowUs from "../components/homepage/FollowUs";
 import { jQueryWaypoint } from "../services/jquery-to-refactor";
 import IntroHeading from "../components/IntroHeading";
 import { useHistory } from "react-router-dom";

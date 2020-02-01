@@ -13,8 +13,8 @@ const ShowList = ({ shows }) => {
   return (
     <div className="row">
       <div className="col-md-12 animate-box">
-        {shows.map(show => (
-          <div className="show-listing" key={show.date}>
+        {shows.map((show, i) => (
+          <div className={`show-listing`} key={show.date}>
             {show.date}
             <br /> @{" "}
             <a

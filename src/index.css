@@ -2,12 +2,10 @@ body {
 }
 
 .video-wrapper {
-    text-align: center;
-    margin-bottom: 8rem;
+  text-align: center;
+  margin-bottom: 8rem;
 }
 
 .video-wrapper iframe {
-    width: 100%;
+  width: 100%;
 }
-
-

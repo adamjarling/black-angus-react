@@ -3,7 +3,6 @@ import promoPic1 from "../images/DSC03584.JPG";
 import hvac1 from "../images/hvac1.jpg";
 import HeroWithContent from "../components/HeroWithContent";
 import bgImage from "../images/hob-2019-ANIMATION.gif";
-import IntroHeading from "../components/IntroHeading";
 import Video from "../components/Video";
 import girls from "../assets/Girls got Rhythm.ref1.mp3";
 import walkMp3 from "../assets/Walk all over You.mstrref1.mp3";

@@ -1,7 +1,6 @@
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import HeroWithContent from "../components/HeroWithContent";
 import bgImage from "../images/hob/rb-hob.JPG";
 import fullBand from "../images/hob/full-band-hob.JPG";
 import rbHob2 from "../images/hob/rb-hob2.JPG";
@@ -21,7 +20,6 @@ import bandBW from "../images/hob/taran-tony-rb-hob.JPG";
 import tonyHob from "../images/hob/tony-hob.JPG";
 import rbBrauer from "../images/gallery/rb-brauerhaus.JPG";
 import adam from "../images/gallery/adam-brauerhaus2.JPG";
-import taranLivewire from "../images/gallery/taran-livewire.JPG";
 import taranWild from "../images/gallery/taran-wild.JPG";
 import stageDark from "../images/gallery/stage-dark.JPG";
 
