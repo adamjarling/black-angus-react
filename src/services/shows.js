@@ -1,5 +1,14 @@
 export const shows = [
   {
+    date: "February 27, 2020",
+    venue: "Firewater Saloon",
+    venueUrl: "https://edisonpark.firewatersaloonchicago.com/",
+    location: "Edison Park, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "https://www.facebook.com/events/2565162720403475/"
+  },
+  {
     date: "March 14th, 2020",
     venue: "Live Wire Lounge",
     venueUrl: "http://livewireloungechicago.com/",
