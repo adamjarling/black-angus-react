@@ -14,102 +14,117 @@ import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
 import publicHouse from "../images/posters/2019-12-21-public-house.jpg";
 import hob from "../images/posters/2019-house-of-blues.jpg";
 import fireSaloon from "../images/posters/2020-02-27-facebook-event.png";
+import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
+import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
 import ShowList from "./ShowList";
 import { shows } from "../services/shows";
 
 const styles = {
   sectionStyles: {
-    paddingBottom: "7rem"
-  }
+    paddingBottom: "7rem",
+  },
 };
 
 export const photos = [
   {
+    src: westChicago2021,
+    width: 8,
+    height: 5,
+    fbeventurl:
+      "https://skeletix.com/1376-diver-down-van-halen-tribute-the-wc-soc/",
+  },
+  {
+    src: reggiesBeach,
+    width: 8,
+    height: 5,
+    fbeventurl: "",
+  },
+  {
     src: fireSaloon,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/2565162720403475/"
+    fbeventurl: "https://www.facebook.com/events/2565162720403475/",
   },
   {
     src: hob,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/2464016177173365/"
+    fbeventurl: "https://www.facebook.com/events/2464016177173365/",
   },
   {
     src: publicHouse,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/2202566386717178/"
+    fbeventurl: "https://www.facebook.com/events/2202566386717178/",
   },
   {
     src: reggiesRobbyBDay,
     width: 5,
     height: 8,
-    fbeventurl: ""
+    fbeventurl: "",
   },
   {
     src: hvacCubs,
     width: 8,
     height: 4,
-    fbeventurl: ""
+    fbeventurl: "",
   },
   {
     src: brauerhouse,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/340843310125045/"
+    fbeventurl: "https://www.facebook.com/events/340843310125045/",
   },
   {
     src: ghettoKarts2019,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/2366748116872436/"
+    fbeventurl: "https://www.facebook.com/events/2366748116872436/",
   },
   {
     src: hvacPoster,
     width: 8,
     height: 5,
-    fbeventurl: "https://www.facebook.com/events/2060105220711141/"
+    fbeventurl: "https://www.facebook.com/events/2060105220711141/",
   },
   {
     src: nye,
     width: 3,
     height: 2,
-    fbeventurl: "https://www.facebook.com/events/1634691659964625/"
+    fbeventurl: "https://www.facebook.com/events/1634691659964625/",
   },
   {
     src: hvac,
     width: 5,
     height: 3,
-    fbeventurl: "https://www.facebook.com/events/266652840698888/"
+    fbeventurl: "https://www.facebook.com/events/266652840698888/",
   },
   {
     src: hvacPrint,
     width: 5,
     height: 8,
-    fbeventurl: "https://www.facebook.com/events/266652840698888/"
+    fbeventurl: "https://www.facebook.com/events/266652840698888/",
   },
   {
     src: reggiesOfficial,
     width: 5,
     height: 3,
-    fbeventurl: "https://www.facebook.com/events/1948656285438913/"
+    fbeventurl: "https://www.facebook.com/events/1948656285438913/",
   },
   {
     src: reggies,
     width: 5,
     height: 3,
-    fbeventurl: "https://www.facebook.com/events/1948656285438913/"
+    fbeventurl: "https://www.facebook.com/events/1948656285438913/",
   },
   {
     src: reggies10,
     width: 3,
-    height: 5
-  }
+    height: 5,
+  },
 ];
 
-const ShowListPosters = props => {
+const ShowListPosters = (props) => {
   const handleClick = (e, obj) => {
     if (obj.photo.fbeventurl) {
       window.open(obj.photo.fbeventurl, "_blank");

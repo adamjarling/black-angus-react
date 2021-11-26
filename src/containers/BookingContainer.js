@@ -21,7 +21,7 @@ const BookingContainer = () => {
 
       <div className="container">
         <IntroHeading>
-          <p>“Festivals, clubs, cruises, outer space, book the Black Angus.”</p>
+          <p>For USA and UK booking, contact:</p>
         </IntroHeading>
         <BookingHeadline>
           <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>

@@ -1,13 +1,37 @@
 export const shows = [
   {
-    date: "May 22, 2021",
-    venue: "The Forge",
+    date: "December 18, 2021",
+    venue: "WC Social Club",
     venueUrl: "http://theforgelive.com/",
-    location: "Joliet, IL",
+    location: "West Chicago, IL",
+    ticketUrl:
+      "https://skeletix.com/1376-diver-down-van-halen-tribute-the-wc-soc/",
+    image: null,
+    socialLink: "https://www.facebook.com/events/620960512592784",
+    details: "w/ Diver Down (Van Halen) and Rat Pack (Ratt)",
+  },
+  {
+    date: "December 31, 2021",
+    venue: "Live Wire Lounge",
+    venueUrl: "http://theforgelive.com/",
+    location: "Chicago, IL",
     ticketUrl: "",
     image: null,
     socialLink: "",
-    details: "First show back!",
+    details: "New Years Eve Show",
+  },
+];
+
+export const pastShows = [
+  {
+    date: "August 18, 2021",
+    venue: "Reggies on the Beach",
+    venueUrl: "https://www.reggieslive.com/",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "",
   },
   {
     date: "July 10, 2021",
@@ -19,9 +43,16 @@ export const shows = [
     socialLink: "",
     details: "Headlining Rogers Park's coolest festival by the lake",
   },
-];
-
-export const pastShows = [
+  {
+    date: "May 22, 2021",
+    venue: "The Forge",
+    venueUrl: "http://theforgelive.com/",
+    location: "Joliet, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "First show back!",
+  },
   {
     date: "May 16th, 2020",
     venue: "Public House on Cicero",
