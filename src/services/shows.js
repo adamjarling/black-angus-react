@@ -15,9 +15,10 @@ export const shows = [
     venue: "Live Wire Lounge",
     venueUrl: "http://theforgelive.com/",
     location: "Chicago, IL",
-    ticketUrl: "",
+    ticketUrl:
+      "https://wamitickets.com/e/125/new-years-eve-with-black-angus-turbonitro-dj-eddie-gobbo",
     image: null,
-    socialLink: "",
+    socialLink: "https://www.facebook.com/events/718794552423735",
     details: "New Years Eve Show",
   },
 ];

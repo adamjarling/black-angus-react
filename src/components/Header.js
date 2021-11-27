@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/black-angus-font-logo-white.png";
 import styled from "styled-components";
-import { withRouter } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-const Header = ({ location }) => {
+const Header = () => {
+  const location = useLocation();
+
   const Logo = styled.img`
     display: inline-block;
     width: 200px;
@@ -36,4 +38,4 @@ const Header = ({ location }) => {
   );
 };
 
-export default withRouter(Header);
+export default Header;

@@ -8,14 +8,14 @@ import Video from "../components/Video";
 import ShowListPosters from "../components/ShowListPosters";
 import { jQueryWaypoint } from "../services/jquery-to-refactor";
 import IntroHeading from "../components/IntroHeading";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import SocialMedia from "../components/SocialMedia";
 
 const HomeContainer = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handlePressClick = () => {
-    history.push("/press-kit");
+    navigate("/press-kit");
   };
 
   useEffect(() => {

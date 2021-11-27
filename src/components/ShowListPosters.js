@@ -28,7 +28,7 @@ const styles = {
 export const photos = [
   {
     src: westChicago2021,
-    width: 8,
+    width: 5,
     height: 5,
     fbeventurl:
       "https://skeletix.com/1376-diver-down-van-halen-tribute-the-wc-soc/",
