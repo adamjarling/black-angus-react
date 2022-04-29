@@ -16,6 +16,7 @@ import hob from "../images/posters/2019-house-of-blues.jpg";
 import fireSaloon from "../images/posters/2020-02-27-facebook-event.png";
 import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
 import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
+import saveRnRFest from "../images/posters/2022-05-01-save-rnr.jpeg";
 import ShowList from "./ShowList";
 import { shows } from "../services/shows";
 
@@ -26,6 +27,12 @@ const styles = {
 };
 
 export const photos = [
+  {
+    src: saveRnRFest,
+    width: 2,
+    height: 5,
+    fbeventurl: "",
+  },
   {
     src: westChicago2021,
     width: 5,

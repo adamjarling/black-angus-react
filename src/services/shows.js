@@ -1,14 +1,37 @@
 export const shows = [
   {
-    date: "December 18, 2021",
-    venue: "WC Social Club",
-    venueUrl: "http://theforgelive.com/",
-    location: "West Chicago, IL",
+    date: "May 1, 2022",
+    venue: "Reggies",
+    venueUrl: "https://www.reggieslive.com/",
+    location: "Chicago, IL",
     ticketUrl:
-      "https://skeletix.com/1376-diver-down-van-halen-tribute-the-wc-soc/",
+      "https://savetherocknroll.bigcartel.com/product/save-the-rock-n-roll-festival-3-day-pass-tickets-21-and-over-december-11-13-2020",
     image: null,
     socialLink: "https://www.facebook.com/events/620960512592784",
-    details: "w/ Diver Down (Van Halen) and Rat Pack (Ratt)",
+    details: "Save the Rock 'n Roll Fest - 1pm.",
+  },
+  {
+    date: "May 22, 2022",
+    venue: "Thirsty Beaver",
+    venueUrl: "https://www.thirstybeaverpubandgrub.com/",
+    location: "Crestwood, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "3pm afternoon show!",
+  },
+];
+
+export const pastShows = [
+  {
+    date: "April 23, 2022",
+    venue: "Roc Haus",
+    venueUrl: "https://rochaus.com/",
+    location: "West Dundee, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "https://www.facebook.com/events/633812177921325",
+    details: "Rockin the west burbs",
   },
   {
     date: "December 31, 2021",
@@ -21,9 +44,17 @@ export const shows = [
     socialLink: "https://www.facebook.com/events/718794552423735",
     details: "New Years Eve Show",
   },
-];
-
-export const pastShows = [
+  {
+    date: "December 18, 2021",
+    venue: "WC Social Club",
+    venueUrl: "http://theforgelive.com/",
+    location: "West Chicago, IL",
+    ticketUrl:
+      "https://skeletix.com/1376-diver-down-van-halen-tribute-the-wc-soc/",
+    image: null,
+    socialLink: "https://www.facebook.com/events/620960512592784",
+    details: "w/ Diver Down (Van Halen) and Rat Pack (Ratt)",
+  },
   {
     date: "August 18, 2021",
     venue: "Reggies on the Beach",
