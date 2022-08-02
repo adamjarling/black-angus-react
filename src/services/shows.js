@@ -1,15 +1,27 @@
 export const shows = [
   {
-    date: "May 1, 2022",
-    venue: "Reggies",
-    venueUrl: "https://www.reggieslive.com/",
-    location: "Chicago, IL",
-    ticketUrl:
-      "https://savetherocknroll.bigcartel.com/product/save-the-rock-n-roll-festival-3-day-pass-tickets-21-and-over-december-11-13-2020",
+    date: "August 13, 2022",
+    venue: "Retro on Roscoe Festival",
+    venueUrl: "https://www.starevents.com/event/retro-on-roscoe/",
+    location: "Roscoe Village - Chicago, IL",
+    ticketUrl: "",
     image: null,
-    socialLink: "https://www.facebook.com/events/620960512592784",
-    details: "Save the Rock 'n Roll Fest - 1pm.",
+    socialLink: "",
+    details: "2pm afternoon show!",
   },
+  {
+    date: "October 22, 2022",
+    venue: "Nite Cap",
+    venueUrl: "",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "",
+  },
+];
+
+export const pastShows = [
   {
     date: "May 22, 2022",
     venue: "Thirsty Beaver",
@@ -20,9 +32,17 @@ export const shows = [
     socialLink: "",
     details: "3pm afternoon show!",
   },
-];
-
-export const pastShows = [
+  {
+    date: "May 1, 2022",
+    venue: "Reggies",
+    venueUrl: "https://www.reggieslive.com/",
+    location: "Chicago, IL",
+    ticketUrl:
+      "https://savetherocknroll.bigcartel.com/product/save-the-rock-n-roll-festival-3-day-pass-tickets-21-and-over-december-11-13-2020",
+    image: null,
+    socialLink: "https://www.facebook.com/events/620960512592784",
+    details: "Save the Rock 'n Roll Fest - 1pm.",
+  },
   {
     date: "April 23, 2022",
     venue: "Roc Haus",
