@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Hire = props => {
+const Hire = (props) => {
   return (
     <div id="colorlib-hire">
       <div className="container">
@@ -11,7 +11,10 @@ const Hire = props => {
               the land?
             </h2>
             <p>
-              <a href="mailto:info@blackangusrock.com" className="btn btn-primary btn-lg">
+              <a
+                href="mailto:underthewirebooking@gmail.com"
+                className="btn btn-primary btn-lg"
+              >
                 Contact the Beef
               </a>
             </p>

@@ -31,7 +31,9 @@ const HomeContainer = () => {
         </p>
         <div className="home-hi-contacts">
           <SocialMedia />
-          <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
+          <a href="mailto:underthewirebooking@gmail.com">
+            underthewirebooking@gmail.com
+          </a>
           <button className="button btn btn-primary" onClick={handlePressClick}>
             View the Press Kit
           </button>

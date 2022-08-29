@@ -24,7 +24,9 @@ const BookingContainer = () => {
           <p>For USA and UK booking, contact:</p>
         </IntroHeading>
         <BookingHeadline>
-          <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
+          <a href="mailto:underthewirebooking@gmail.com">
+            underthewirebooking@gmail.com
+          </a>
         </BookingHeadline>
       </div>
     </div>

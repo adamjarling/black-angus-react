@@ -130,7 +130,9 @@ const PressKitContainer = () => {
 
           <h3 className="fancy">Booking USA/Canada</h3>
           <p className="text-center">
-            <a href="mailto:info@blackangusrock.com">info@blackangusrock.com</a>
+            <a href="mailto:underthewirebooking@gmail.com">
+              underthewirebooking@gmail.com
+            </a>
           </p>
         </div>
       </div>
