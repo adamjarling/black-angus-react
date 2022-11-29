@@ -1,5 +1,29 @@
 export const shows = [
   {
+    date: "December 09, 2022",
+    venue: "Roc Haus",
+    venueUrl: "https://rochaus.com/",
+    location: "Chicago, IL",
+    ticketUrl:
+      "https://wl.seetickets.us/event/Blackened-The-Ultimate-Metallica-Tribute/510026?afflky=Rochaus",
+    image: null,
+    socialLink: "https://fb.me/e/2zokkF0Wu",
+    details: "Back to the one and only Roc Haus!",
+  },
+];
+
+export const pastShows = [
+  {
+    date: "October 22, 2022",
+    venue: "Foundation",
+    venueUrl: "",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "",
+  },
+  {
     date: "August 13, 2022",
     venue: "Retro on Roscoe Festival",
     venueUrl: "https://www.starevents.com/event/retro-on-roscoe/",
@@ -9,19 +33,6 @@ export const shows = [
     socialLink: "",
     details: "2pm afternoon show!",
   },
-  {
-    date: "October 22, 2022",
-    venue: "Nite Cap",
-    venueUrl: "",
-    location: "Chicago, IL",
-    ticketUrl: "",
-    image: null,
-    socialLink: "",
-    details: "",
-  },
-];
-
-export const pastShows = [
   {
     date: "May 22, 2022",
     venue: "Thirsty Beaver",
