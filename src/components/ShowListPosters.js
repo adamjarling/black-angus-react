@@ -18,7 +18,7 @@ import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
 import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
 import saveRnRFest from "../images/posters/2022-05-01-save-rnr.jpeg";
 import brauer2023 from "../images/posters/2023-02-23-brauer.avif";
-import reggies2023 from "../images/posters/2023-03-04-brauer.jpeg";
+import reggies2023 from "../images/posters/2023-03-04-reggies.jpeg";
 import ShowList from "./ShowList";
 import { shows } from "../services/shows";
 
