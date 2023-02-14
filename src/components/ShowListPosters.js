@@ -17,6 +17,8 @@ import fireSaloon from "../images/posters/2020-02-27-facebook-event.png";
 import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
 import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
 import saveRnRFest from "../images/posters/2022-05-01-save-rnr.jpeg";
+import brauer2023 from "../images/posters/2023-02-23-brauer.avif";
+import reggies2023 from "../images/posters/2023-03-04-brauer.jpeg";
 import ShowList from "./ShowList";
 import { shows } from "../services/shows";
 
@@ -27,6 +29,18 @@ const styles = {
 };
 
 export const photos = [
+  {
+    src: reggies2023,
+    width: 2,
+    height: 4,
+    fbeventurl: "",
+  },
+  {
+    src: brauer2023,
+    width: 5,
+    height: 3,
+    fbeventurl: "",
+  },
   {
     src: saveRnRFest,
     width: 2,

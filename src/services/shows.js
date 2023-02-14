@@ -1,5 +1,51 @@
 export const shows = [
   {
+    date: "February 23, 2023",
+    venue: "Brauer House",
+    venueUrl:
+      "https://www.eventbrite.com/o/brauer-house-amp-bhouse-live-18059974031",
+    location: "Lombard, IL",
+    ticketUrl:
+      "https://www.eventbrite.com/e/van-halen-vs-acdc-ft-tributes-jump-black-angus-free-show-tickets-518170129807?aff=ebdsoporgprofile",
+    image: null,
+    socialLink: "",
+    details: "Free Show w/ JUMP (Van Halen)",
+  },
+  {
+    date: "March 04, 2023",
+    venue: "Reggies",
+    venueUrl: "https://www.reggieslive.com/2023/03/?post_type=show",
+    location: "Chicago, IL",
+    ticketUrl:
+      "https://www.ticketweb.com/event/maiden-chicago-black-angus-judas-reggies-rock-club-tickets/12902365",
+    image: null,
+    socialLink: "",
+    details: "w/ Maiden Chicago, Judas Rising and Phat Kiss",
+  },
+  {
+    date: "March 11, 2023",
+    venue: "Basecamp",
+    venueUrl: "https://www.basecamppub.com/",
+    location: "Lisle, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "",
+  },
+];
+
+export const pastShows = [
+  {
+    date: "January 28, 2023",
+    venue: "JJ Keylls",
+    venueUrl: "",
+    location: "Lansing, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "",
+  },
+  {
     date: "December 09, 2022",
     venue: "Roc Haus",
     venueUrl: "https://rochaus.com/",
@@ -10,9 +56,6 @@ export const shows = [
     socialLink: "https://fb.me/e/2zokkF0Wu",
     details: "Back to the one and only Roc Haus!",
   },
-];
-
-export const pastShows = [
   {
     date: "October 22, 2022",
     venue: "Foundation",
