@@ -1,8 +1,7 @@
 import React from "react";
-import MailChimpSignupForm from "./MailChimpSignupForm";
 import SocialMedia from "./SocialMedia";
 
-const Footer = props => {
+const Footer = (props) => {
   return (
     <footer>
       <div id="footer">
@@ -13,20 +12,20 @@ const Footer = props => {
                 <div className="col-md-10">
                   <h2>Black Angus</h2>
                   <p>
-                    Chicago musicians delivering the AC/DC you
-                    love, and deserve.
+                    Chicago musicians delivering the AC/DC you love, and
+                    deserve.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-pb-sm">
+            {/* <div className="col-md-4 col-pb-sm">
               <h2>Newsletter</h2>
               <p>
                 Get the latest updates on Black Angus and rare, vintage AC/DC
                 archives.
               </p>
               <MailChimpSignupForm />
-            </div>
+            </div> */}
             <div className="col-md-4 col-pb-sm right-display">
               <h2>Follow Us</h2>
               <SocialMedia />
