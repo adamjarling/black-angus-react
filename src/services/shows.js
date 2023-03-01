@@ -1,17 +1,5 @@
 export const shows = [
   {
-    date: "February 23, 2023",
-    venue: "Brauer House",
-    venueUrl:
-      "https://www.eventbrite.com/o/brauer-house-amp-bhouse-live-18059974031",
-    location: "Lombard, IL",
-    ticketUrl:
-      "https://www.eventbrite.com/e/van-halen-vs-acdc-ft-tributes-jump-black-angus-free-show-tickets-518170129807?aff=ebdsoporgprofile",
-    image: null,
-    socialLink: "",
-    details: "Free Show w/ JUMP (Van Halen)",
-  },
-  {
     date: "March 04, 2023",
     venue: "Reggies",
     venueUrl: "https://www.reggieslive.com/2023/03/?post_type=show",
@@ -35,6 +23,18 @@ export const shows = [
 ];
 
 export const pastShows = [
+  {
+    date: "February 23, 2023",
+    venue: "Brauer House",
+    venueUrl:
+      "https://www.eventbrite.com/o/brauer-house-amp-bhouse-live-18059974031",
+    location: "Lombard, IL",
+    ticketUrl:
+      "https://www.eventbrite.com/e/van-halen-vs-acdc-ft-tributes-jump-black-angus-free-show-tickets-518170129807?aff=ebdsoporgprofile",
+    image: null,
+    socialLink: "",
+    details: "Free Show w/ JUMP (Van Halen)",
+  },
   {
     date: "January 28, 2023",
     venue: "JJ Keylls",
