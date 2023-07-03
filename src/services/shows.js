@@ -1,5 +1,48 @@
 export const shows = [
   {
+    date: "July 27, 2023",
+    venue: "Reggies on the Beach",
+    venueUrl: "https://www.reggieslive.com/venue/beach/",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "Back to the Beach!",
+  },
+  {
+    date: "August 13, 2022",
+    venue: "Retro on Roscoe Festival",
+    venueUrl: "https://www.starevents.com/event/retro-on-roscoe/",
+    location: "Roscoe Village - Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "4pm afternoon show!",
+  },
+  {
+    date: "October 7, 2022",
+    venue: "Hard Rock Casino",
+    venueUrl: "https://www.hardrockcasinonorthernindiana.com/",
+    location: "Gary, IN",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "4pm afternoon show!",
+  },
+  {
+    date: "December 09, 2022",
+    venue: "Roc Haus",
+    venueUrl: "https://rochaus.com/",
+    location: "Chicago, IL",
+    ticketUrl: "",
+    image: null,
+    socialLink: "",
+    details: "Back to the one and only Roc Haus!",
+  },
+];
+
+export const pastShows = [
+  {
     date: "March 04, 2023",
     venue: "Reggies",
     venueUrl: "https://www.reggieslive.com/2023/03/?post_type=show",
@@ -20,9 +63,6 @@ export const shows = [
     socialLink: "",
     details: "",
   },
-];
-
-export const pastShows = [
   {
     date: "February 23, 2023",
     venue: "Brauer House",
