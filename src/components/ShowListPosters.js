@@ -1,26 +1,28 @@
-import React from "react";
 import Gallery from "react-photo-gallery";
-import reggies from "../images/black-angus-reggies-2018-11-17.png";
-import reggiesOfficial from "../images/posters/2018-reggies.jpg";
-import nye from "../images/posters/2018-nye.jpg";
-import hvac from "../images/posters/2019-hvac-3-bands.jpg";
-import hvacPrint from "../images/posters/2019-hvac-3-bands-print.jpg";
-import reggies10 from "../images/posters/reggies-10th-anniversary.jpg";
-import hvacPoster from "../images/posters/2019-04-26-hvac.jpg";
-import reggiesRobbyBDay from "../images/posters/2019-08-08-reggies.jpg";
-import ghettoKarts2019 from "../images/posters/facebook-event-2019-07-04.png";
-import brauerhouse from "../images/posters/2019-09-21-brauerhouse.jpg";
-import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
-import publicHouse from "../images/posters/2019-12-21-public-house.jpg";
-import hob from "../images/posters/2019-house-of-blues.jpg";
-import fireSaloon from "../images/posters/2020-02-27-facebook-event.png";
-import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
-import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
-import saveRnRFest from "../images/posters/2022-05-01-save-rnr.jpeg";
-import brauer2023 from "../images/posters/2023-02-23-brauer.avif";
-import reggies2023 from "../images/posters/2023-03-04-reggies.jpeg";
+import React from "react";
 import ShowList from "./ShowList";
+import brauer2023 from "../images/posters/2023-02-23-brauer.avif";
+import brauerhouse from "../images/posters/2019-09-21-brauerhouse.jpg";
+import dec2023Rochaus from "../images/posters/2023-12-09-rochaus.jpeg";
+import fireSaloon from "../images/posters/2020-02-27-facebook-event.png";
+import ghettoKarts2019 from "../images/posters/facebook-event-2019-07-04.png";
+import hardRockCasino from "../images/posters/2023-10-07-hardrock.jpeg";
+import hob from "../images/posters/2019-house-of-blues.jpg";
+import hvac from "../images/posters/2019-hvac-3-bands.jpg";
+import hvacCubs from "../images/posters/facebook-event-2019-08-31.png";
+import hvacPoster from "../images/posters/2019-04-26-hvac.jpg";
+import hvacPrint from "../images/posters/2019-hvac-3-bands-print.jpg";
+import nye from "../images/posters/2018-nye.jpg";
+import publicHouse from "../images/posters/2019-12-21-public-house.jpg";
+import reggies from "../images/black-angus-reggies-2018-11-17.png";
+import reggies10 from "../images/posters/reggies-10th-anniversary.jpg";
+import reggies2023 from "../images/posters/2023-03-04-reggies.jpeg";
+import reggiesBeach from "../images/posters/2021-reggies-beach.jpeg";
+import reggiesOfficial from "../images/posters/2018-reggies.jpg";
+import reggiesRobbyBDay from "../images/posters/2019-08-08-reggies.jpg";
+import saveRnRFest from "../images/posters/2022-05-01-save-rnr.jpeg";
 import { shows } from "../services/shows";
+import westChicago2021 from "../images/posters/2021-12-18-flyer.jpeg";
 
 const styles = {
   sectionStyles: {
@@ -29,6 +31,18 @@ const styles = {
 };
 
 export const photos = [
+  {
+    src: dec2023Rochaus,
+    width: 2,
+    height: 2,
+    fbeventurl: "https://www.facebook.com/events/714821100504164",
+  },
+  {
+    src: hardRockCasino,
+    width: 3,
+    height: 2,
+    fbeventurl: "",
+  },
   {
     src: reggies2023,
     width: 2,
